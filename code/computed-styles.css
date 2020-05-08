@@ -1,0 +1,23 @@
+#resource-table table td {
+  background-color: #EEFFFE;
+}
+
+.active {
+  font-size: 15px;
+}
+
+.active {
+  font-style: italic;
+}
+
+a:hover {
+  color: violet;
+}
+
+@media (min-width: 500px) {
+  .text-container {
+    background-color: #EEFFFE;
+  }
+}
+
+/*# sourceMappingURL=computed-styles.css.map */

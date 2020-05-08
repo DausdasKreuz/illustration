@@ -1,0 +1,27 @@
+$background: #EEFFFE;
+#resource-table {
+    table {
+        td {
+            background-color: $background;
+        }
+    }
+}
+
+%navigation-text {
+    font-size: 15px;
+}
+
+.active {
+    @extend %navigation-text;
+    font-style: italic;
+}
+
+a:hover {
+    color: violet;
+}
+
+@media (min-width: 500px) {
+    .text-container {
+        background-color: $background;
+    }
+}
